@@ -85,10 +85,79 @@ main .container {
     max-width: 100%;
     max-height: 50%;
 }
-p{
+.immagine :nth-child(2) {
+    display: none;
+}
+.immagine:hover > img {
+    display: none;
+}
+.immagine:hover :nth-child(2) {
+    display: block;
+}
+small {
+    font-size: 10px;
+}
+h2 {
+    font-size: 15px;
+}
+article span {
+    vertical-align: top;
+    margin-bottom: 50px;
+}
+#actual-price {
+    color: red;
+}
+#previous-price {
+    text-decoration: line-through;
+}
+.immagine {
+    position: relative;
+}
+.heart {
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 0;
+
+}
+.heart i {
+    color: black;
+    height: 40px;
+    width: 30px;
+    line-height: 40px;
+    text-align: center;
+}
+.heart:hover i {
+    color: red;
+}
+.sconto {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 10px;
+}
+.sostenibilita {
+    position: absolute;
+    bottom: 30px;
+    left: 45px;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 10px;
+}
+#last {
+    left: 0;
+}
+.description {
     margin-bottom: 30px;
 }
-
 /****************
     FOOTER
 ****************/
