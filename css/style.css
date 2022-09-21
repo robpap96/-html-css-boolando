@@ -42,7 +42,7 @@ header {
     justify-content: space-between;
     align-items: center;
     color: white;
-    padding: 20px 0;
+    padding: 20px 10px;
 }
 .col-big {
     width: 70%;
@@ -92,5 +92,40 @@ p{
 /****************
     FOOTER
 ****************/
-
-
+footer {
+    background-color: #1a1a1a;
+}
+footer .container {
+    margin-top: 30px;
+}
+h4 {
+    color: white;
+}
+.info {
+    padding: 20px 0;
+}
+.info ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.info ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    padding-right: 10px;
+}
+footer .row {
+    justify-content: space-between;
+    align-items: center;    
+    padding: 10px 10px;
+}
+.social i {
+    color: white;
+    padding: 5px 5px;
+}
+.social h4 {
+    padding-left: 7px;
+}
