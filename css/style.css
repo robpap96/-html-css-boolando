@@ -1,19 +1,62 @@
 /****************
     RESET
 ****************/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 
 /****************
     COMMON
 ****************/
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+.row {
+    display: flex;
+}
 
 /****************
     TYPE
 ****************/
+* {
+    font-family: 'Roboto', sans-serif;
 
+}
 /****************
     HEADER
 ****************/
-
+header {
+    background-color: #ff6900;
+}
+.tab {
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 20px 0;
+}
+.col-big {
+    width: 70%;
+    text-align: center;
+}
+.col-small {
+    width: 15%;
+}
+.col-small a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+header img {
+    width: 130px;
+    height: 30px;
+}
+.tab :last-child {
+    text-align: right;
+}
 /****************
     MAIN
 ****************/
