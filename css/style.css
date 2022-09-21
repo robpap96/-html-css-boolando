@@ -12,7 +12,7 @@
     COMMON
 ****************/
 .container {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: auto;
 }
 .row {
@@ -30,7 +30,13 @@
     HEADER
 ****************/
 header {
+    position: fixed;
+    top: 0;
+    left:0;
+    right: 0;
+    z-index: 100;
     background-color: #ff6900;
+
 }
 .tab {
     justify-content: space-between;
@@ -57,9 +63,31 @@ header img {
 .tab :last-child {
     text-align: right;
 }
+
 /****************
     MAIN
 ****************/
+main .container{
+    margin-top: 50px;
+}
+article {
+    width: calc(100% /3 - 20px);
+    margin: 0 10px;
+}
+main .row  {
+    flex-wrap: wrap;
+}
+main .container {
+    padding-top: 50px;
+}
+.immagine img {
+    display: block;
+    max-width: 100%;
+    max-height: 50%;
+}
+p{
+    margin-bottom: 30px;
+}
 
 /****************
     FOOTER
